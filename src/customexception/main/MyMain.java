@@ -36,7 +36,7 @@ public class MyMain {
     public static void checkInput() throws MyCustomException {
         Scanner sc = new Scanner(System.in);
         int no;
-        
+
         System.out.println("enter a value greater than 100");
         no = sc.nextInt();
         if(no > 100){
